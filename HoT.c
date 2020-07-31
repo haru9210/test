@@ -19,4 +19,8 @@ int main(void){
 		printf("\n");
 	}
 	printf("\nHeads: %d, Tails: %d\n", score, 3-score);
+	if(score>1)printf("You won");
+	else printf("You lost");
+	
+	printf("\n");
 }
