@@ -3,9 +3,15 @@
 #include<time.h>
 
 int main(void){
-	srand((unsigned int)time(NULL));
+	char name[100];
+	printf("Who are you?\n");
+	scanf("%s",name);
+	printf("Hello, %s!\n",name);
 
-	printf("Tossing a coin...\n");
+
+
+	srand((unsigned int)time(NULL));
+	printf("\nTossing a coin...\n");
 
 	int score=0;
 	for(int i=1;i<=3;i++){
