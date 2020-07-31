@@ -25,8 +25,8 @@ int main(void){
 		printf("\n");
 	}
 	printf("\nHeads: %d, Tails: %d\n", score, 3-score);
-	if(score>1)printf("You won");
-	else printf("You lost");
+	if(score>1)printf("%s won!",name);
+	else printf("%s lost...",name);
 	
 	printf("\n");
 }
